@@ -29,7 +29,7 @@ struct ContentView: View {
                             Image(systemName: "magnifyingglass")
                                 .foregroundColor(.gray)
                                 .padding(.horizontal, 10)
-                            TextField("Buscar", text: $viewModel.searchText)
+                            TextField("Search", text: $viewModel.searchText)
                                 .padding(.vertical, 1)
                                 .cornerRadius(8)
                                 .foregroundColor(.gray)
