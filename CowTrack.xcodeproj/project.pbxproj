@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92AE2592C40362900289CD9 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AE2582C40362900289CD9 /* DocumentPicker.swift */; };
+		A93525652C5466250047D737 /* CattleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93525642C5466250047D737 /* CattleRowView.swift */; };
+		A93525672C54662C0047D737 /* CattleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93525662C54662C0047D737 /* CattleGridView.swift */; };
+		A95E46A22C3F9C61002F64FE /* CowTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E46A12C3F9C61002F64FE /* CowTrackApp.swift */; };
+		A95E46A42C3F9C61002F64FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E46A32C3F9C61002F64FE /* ContentView.swift */; };
+		A95E46A62C3F9C63002F64FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95E46A52C3F9C63002F64FE /* Assets.xcassets */; };
+		A95E46A92C3F9C63002F64FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95E46A82C3F9C63002F64FE /* Preview Assets.xcassets */; };
+		A95E46B82C3F9C63002F64FE /* CowTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E46B72C3F9C63002F64FE /* CowTrackTests.swift */; };
+		A95E46C22C3F9C63002F64FE /* CowTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E46C12C3F9C63002F64FE /* CowTrackUITests.swift */; };
+		A95E46C42C3F9C63002F64FE /* CowTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E46C32C3F9C63002F64FE /* CowTrackUITestsLaunchTests.swift */; };
+		A95E46D32C3F9E66002F64FE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E46D22C3F9E66002F64FE /* Persistence.swift */; };
+		A95E46D52C3F9F47002F64FE /* AddCattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E46D42C3F9F47002F64FE /* AddCattleView.swift */; };
+		A95E46D72C3FA3D2002F64FE /* CattleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95E46D62C3FA3D2002F64FE /* CattleDetailView.swift */; };
+		A9758FCF2C40A2E800FE86D2 /* SortFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9758FCE2C40A2E800FE86D2 /* SortFilter.swift */; };
+		A9758FD12C40AFA400FE86D2 /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9758FD02C40AFA400FE86D2 /* TransparentBlurView.swift */; };
+		A9758FE42C419E5C00FE86D2 /* CowTrack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9758FE22C419E5C00FE86D2 /* CowTrack.xcdatamodeld */; };
+		A9758FE62C419F5000FE86D2 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9758FE52C419F5000FE86D2 /* SplashScreenView.swift */; };
+		A9758FE92C41A67600FE86D2 /* Cattle+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9758FE72C41A67600FE86D2 /* Cattle+CoreDataClass.swift */; };
+		A9758FEA2C41A67600FE86D2 /* Cattle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9758FE82C41A67600FE86D2 /* Cattle+CoreDataProperties.swift */; };
+		A9DB60142C45FEB80021FAC2 /* TrashCattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DB60132C45FEB80021FAC2 /* TrashCattleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A95E46B42C3F9C63002F64FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A95E46962C3F9C61002F64FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95E469D2C3F9C61002F64FE;
+			remoteInfo = CowTrack;
+		};
+		A95E46BE2C3F9C63002F64FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A95E46962C3F9C61002F64FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95E469D2C3F9C61002F64FE;
+			remoteInfo = CowTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A92AE2582C40362900289CD9 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		A93525642C5466250047D737 /* CattleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CattleRowView.swift; sourceTree = "<group>"; };
+		A93525662C54662C0047D737 /* CattleGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CattleGridView.swift; sourceTree = "<group>"; };
+		A95E469E2C3F9C61002F64FE /* CowTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CowTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95E46A12C3F9C61002F64FE /* CowTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowTrackApp.swift; sourceTree = "<group>"; };
+		A95E46A32C3F9C61002F64FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A95E46A52C3F9C63002F64FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A95E46A82C3F9C63002F64FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A95E46B32C3F9C63002F64FE /* CowTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CowTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95E46B72C3F9C63002F64FE /* CowTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowTrackTests.swift; sourceTree = "<group>"; };
+		A95E46BD2C3F9C63002F64FE /* CowTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CowTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95E46C12C3F9C63002F64FE /* CowTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowTrackUITests.swift; sourceTree = "<group>"; };
+		A95E46C32C3F9C63002F64FE /* CowTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A95E46D22C3F9E66002F64FE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A95E46D42C3F9F47002F64FE /* AddCattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCattleView.swift; sourceTree = "<group>"; };
+		A95E46D62C3FA3D2002F64FE /* CattleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CattleDetailView.swift; sourceTree = "<group>"; };
+		A9758FCE2C40A2E800FE86D2 /* SortFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilter.swift; sourceTree = "<group>"; };
+		A9758FD02C40AFA400FE86D2 /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
+		A9758FE32C419E5C00FE86D2 /* CowTrack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CowTrack.xcdatamodel; sourceTree = "<group>"; };
+		A9758FE52C419F5000FE86D2 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		A9758FE72C41A67600FE86D2 /* Cattle+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cattle+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A9758FE82C41A67600FE86D2 /* Cattle+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cattle+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9DB60132C45FEB80021FAC2 /* TrashCattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashCattleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A95E469B2C3F9C61002F64FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95E46B02C3F9C63002F64FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95E46BA2C3F9C63002F64FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A95E46952C3F9C61002F64FE = {
+			isa = PBXGroup;
+			children = (
+				A9758FE72C41A67600FE86D2 /* Cattle+CoreDataClass.swift */,
+				A9758FE82C41A67600FE86D2 /* Cattle+CoreDataProperties.swift */,
+				A95E46A02C3F9C61002F64FE /* CowTrack */,
+				A95E46B62C3F9C63002F64FE /* CowTrackTests */,
+				A95E46C02C3F9C63002F64FE /* CowTrackUITests */,
+				A95E469F2C3F9C61002F64FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A95E469F2C3F9C61002F64FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A95E469E2C3F9C61002F64FE /* CowTrack.app */,
+				A95E46B32C3F9C63002F64FE /* CowTrackTests.xctest */,
+				A95E46BD2C3F9C63002F64FE /* CowTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A95E46A02C3F9C61002F64FE /* CowTrack */ = {
+			isa = PBXGroup;
+			children = (
+				A95E46A12C3F9C61002F64FE /* CowTrackApp.swift */,
+				A95E46A32C3F9C61002F64FE /* ContentView.swift */,
+				A95E46D62C3FA3D2002F64FE /* CattleDetailView.swift */,
+				A9758FD02C40AFA400FE86D2 /* TransparentBlurView.swift */,
+				A9758FE52C419F5000FE86D2 /* SplashScreenView.swift */,
+				A9DB60132C45FEB80021FAC2 /* TrashCattleView.swift */,
+				A93525642C5466250047D737 /* CattleRowView.swift */,
+				A93525662C54662C0047D737 /* CattleGridView.swift */,
+				A9758FE22C419E5C00FE86D2 /* CowTrack.xcdatamodeld */,
+				A95E46D42C3F9F47002F64FE /* AddCattleView.swift */,
+				A92AE2582C40362900289CD9 /* DocumentPicker.swift */,
+				A95E46D22C3F9E66002F64FE /* Persistence.swift */,
+				A9758FCE2C40A2E800FE86D2 /* SortFilter.swift */,
+				A95E46A52C3F9C63002F64FE /* Assets.xcassets */,
+				A95E46A72C3F9C63002F64FE /* Preview Content */,
+			);
+			path = CowTrack;
+			sourceTree = "<group>";
+		};
+		A95E46A72C3F9C63002F64FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A95E46A82C3F9C63002F64FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A95E46B62C3F9C63002F64FE /* CowTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				A95E46B72C3F9C63002F64FE /* CowTrackTests.swift */,
+			);
+			path = CowTrackTests;
+			sourceTree = "<group>";
+		};
+		A95E46C02C3F9C63002F64FE /* CowTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A95E46C12C3F9C63002F64FE /* CowTrackUITests.swift */,
+				A95E46C32C3F9C63002F64FE /* CowTrackUITestsLaunchTests.swift */,
+			);
+			path = CowTrackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A95E469D2C3F9C61002F64FE /* CowTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95E46C72C3F9C63002F64FE /* Build configuration list for PBXNativeTarget "CowTrack" */;
+			buildPhases = (
+				A95E469A2C3F9C61002F64FE /* Sources */,
+				A95E469B2C3F9C61002F64FE /* Frameworks */,
+				A95E469C2C3F9C61002F64FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CowTrack;
+			productName = CowTrack;
+			productReference = A95E469E2C3F9C61002F64FE /* CowTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A95E46B22C3F9C63002F64FE /* CowTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95E46CA2C3F9C63002F64FE /* Build configuration list for PBXNativeTarget "CowTrackTests" */;
+			buildPhases = (
+				A95E46AF2C3F9C63002F64FE /* Sources */,
+				A95E46B02C3F9C63002F64FE /* Frameworks */,
+				A95E46B12C3F9C63002F64FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95E46B52C3F9C63002F64FE /* PBXTargetDependency */,
+			);
+			name = CowTrackTests;
+			productName = CowTrackTests;
+			productReference = A95E46B32C3F9C63002F64FE /* CowTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A95E46BC2C3F9C63002F64FE /* CowTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95E46CD2C3F9C63002F64FE /* Build configuration list for PBXNativeTarget "CowTrackUITests" */;
+			buildPhases = (
+				A95E46B92C3F9C63002F64FE /* Sources */,
+				A95E46BA2C3F9C63002F64FE /* Frameworks */,
+				A95E46BB2C3F9C63002F64FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95E46BF2C3F9C63002F64FE /* PBXTargetDependency */,
+			);
+			name = CowTrackUITests;
+			productName = CowTrackUITests;
+			productReference = A95E46BD2C3F9C63002F64FE /* CowTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A95E46962C3F9C61002F64FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A95E469D2C3F9C61002F64FE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A95E46B22C3F9C63002F64FE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A95E469D2C3F9C61002F64FE;
+					};
+					A95E46BC2C3F9C63002F64FE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A95E469D2C3F9C61002F64FE;
+					};
+				};
+			};
+			buildConfigurationList = A95E46992C3F9C61002F64FE /* Build configuration list for PBXProject "CowTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A95E46952C3F9C61002F64FE;
+			productRefGroup = A95E469F2C3F9C61002F64FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A95E469D2C3F9C61002F64FE /* CowTrack */,
+				A95E46B22C3F9C63002F64FE /* CowTrackTests */,
+				A95E46BC2C3F9C63002F64FE /* CowTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A95E469C2C3F9C61002F64FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95E46A92C3F9C63002F64FE /* Preview Assets.xcassets in Resources */,
+				A95E46A62C3F9C63002F64FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95E46B12C3F9C63002F64FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95E46BB2C3F9C63002F64FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A95E469A2C3F9C61002F64FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93525652C5466250047D737 /* CattleRowView.swift in Sources */,
+				A95E46A42C3F9C61002F64FE /* ContentView.swift in Sources */,
+				A9758FCF2C40A2E800FE86D2 /* SortFilter.swift in Sources */,
+				A95E46D52C3F9F47002F64FE /* AddCattleView.swift in Sources */,
+				A9758FE42C419E5C00FE86D2 /* CowTrack.xcdatamodeld in Sources */,
+				A93525672C54662C0047D737 /* CattleGridView.swift in Sources */,
+				A9758FE92C41A67600FE86D2 /* Cattle+CoreDataClass.swift in Sources */,
+				A9758FEA2C41A67600FE86D2 /* Cattle+CoreDataProperties.swift in Sources */,
+				A9758FE62C419F5000FE86D2 /* SplashScreenView.swift in Sources */,
+				A95E46D32C3F9E66002F64FE /* Persistence.swift in Sources */,
+				A95E46A22C3F9C61002F64FE /* CowTrackApp.swift in Sources */,
+				A95E46D72C3FA3D2002F64FE /* CattleDetailView.swift in Sources */,
+				A92AE2592C40362900289CD9 /* DocumentPicker.swift in Sources */,
+				A9758FD12C40AFA400FE86D2 /* TransparentBlurView.swift in Sources */,
+				A9DB60142C45FEB80021FAC2 /* TrashCattleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95E46AF2C3F9C63002F64FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95E46B82C3F9C63002F64FE /* CowTrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95E46B92C3F9C63002F64FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95E46C42C3F9C63002F64FE /* CowTrackUITestsLaunchTests.swift in Sources */,
+				A95E46C22C3F9C63002F64FE /* CowTrackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A95E46B52C3F9C63002F64FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95E469D2C3F9C61002F64FE /* CowTrack */;
+			targetProxy = A95E46B42C3F9C63002F64FE /* PBXContainerItemProxy */;
+		};
+		A95E46BF2C3F9C63002F64FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95E469D2C3F9C61002F64FE /* CowTrack */;
+			targetProxy = A95E46BE2C3F9C63002F64FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A95E46C52C3F9C63002F64FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A95E46C62C3F9C63002F64FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A95E46C82C3F9C63002F64FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CowTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = U4C57DZC96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexChavarB.CowTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A95E46C92C3F9C63002F64FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CowTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = U4C57DZC96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexChavarB.CowTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A95E46CB2C3F9C63002F64FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4C57DZC96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexChavarB.CowTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CowTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CowTrack";
+			};
+			name = Debug;
+		};
+		A95E46CC2C3F9C63002F64FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4C57DZC96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexChavarB.CowTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CowTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CowTrack";
+			};
+			name = Release;
+		};
+		A95E46CE2C3F9C63002F64FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4C57DZC96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexChavarB.CowTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CowTrack;
+			};
+			name = Debug;
+		};
+		A95E46CF2C3F9C63002F64FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4C57DZC96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexChavarB.CowTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CowTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A95E46992C3F9C61002F64FE /* Build configuration list for PBXProject "CowTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95E46C52C3F9C63002F64FE /* Debug */,
+				A95E46C62C3F9C63002F64FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95E46C72C3F9C63002F64FE /* Build configuration list for PBXNativeTarget "CowTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95E46C82C3F9C63002F64FE /* Debug */,
+				A95E46C92C3F9C63002F64FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95E46CA2C3F9C63002F64FE /* Build configuration list for PBXNativeTarget "CowTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95E46CB2C3F9C63002F64FE /* Debug */,
+				A95E46CC2C3F9C63002F64FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95E46CD2C3F9C63002F64FE /* Build configuration list for PBXNativeTarget "CowTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95E46CE2C3F9C63002F64FE /* Debug */,
+				A95E46CF2C3F9C63002F64FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9758FE22C419E5C00FE86D2 /* CowTrack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9758FE32C419E5C00FE86D2 /* CowTrack.xcdatamodel */,
+			);
+			currentVersion = A9758FE32C419E5C00FE86D2 /* CowTrack.xcdatamodel */;
+			name = CowTrack.xcdatamodeld;
+			path = /Users/alejandro/Documents/CowTrack/CowTrack/CowTrack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A95E46962C3F9C61002F64FE /* Project object */;
+}

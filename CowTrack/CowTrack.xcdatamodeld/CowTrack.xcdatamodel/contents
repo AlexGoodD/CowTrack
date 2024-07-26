@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Cattle" representedClassName="Cattle" syncable="YES">
+        <attribute name="comprador" optional="YES" attributeType="String"/>
+        <attribute name="docCom" optional="YES" attributeType="Binary"/>
+        <attribute name="docVen" optional="YES" attributeType="Binary"/>
+        <attribute name="especie" optional="YES" attributeType="String"/>
+        <attribute name="fechaCom" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fechaCreacion" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fechaEliminado" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fechaVen" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="preCom" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="preVen" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="proveedor" optional="YES" attributeType="String"/>
+        <attribute name="qr" optional="YES" attributeType="Binary"/>
+        <attribute name="raza" optional="YES" attributeType="String"/>
+        <attribute name="sexo" optional="YES" attributeType="String"/>
+    </entity>
+    <configuration name="Configuration"/>
+</model>
